@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Fitness</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="time_intent">time</string>
+    <string name="name_intent">name</string>
+    <string name="day_count_intent">Day Count</string>
+    <string name="week_count_intent">Week Count</string>
+    <string name="exercise_count_intent">Exercise Count</string>
+    <string name="image_intent">Image Intent</string>
+
+    <string name="volume_on_tag">Volume On</string>
+    <string name="volume_off_tag">Volume Off</string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+
+    <integer name="width">20</integer>
+    <integer name="height">20</integer>
+    <integer name="viewPortHeight">20</integer>
+    <integer name="viewPortWidth">20</integer>
+    <integer name="viewCenterX">10</integer>
+    <integer name="viewCenterY">10</integer>
+    <string name="dash_circle_path">M64,32.8C64,50,50,64,32.8,64S1.5,50,1.5,32.8s14-31.3,31.3-31.3S64,15.5,64,32.8z</string>
+    <string name="dash_circle_name">Dashed Circle Svg</string>
+
+    <string name="radio_one">one</string>
+    <string name="radio_two">two</string>
+    <string name="radio_three">three</string>
+    <string name="radio_four">four</string>
+    <string name="radio_five">five</string>
+
+</resources>

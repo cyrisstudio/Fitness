@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abs_beginner">Abs Beginner</string>
+    <string name="abs_intermediate">Abs Intermediate</string>
+    <string name="abs_advance">Abs Advance</string>
+    <string name="chest_beginner">Chest Beginner</string>
+    <string name="chest_intermediate">Chest Intermediate</string>
+    <string name="chest_advance">Chest Advance</string>
+    <string name="our_plan">Our Plan</string>
+    <string name="fiit_plan">Fiit Plan</string>
+    <string name="hiit_plan">Hiit Plan</string>
+    <string name="set_plan">Set Plan</string>
+
+
+    <string name="level_beginner">Beginner</string>
+    <string name="level_intermediate">Intermediate</string>
+    <string name="level_advance">Advance</string>
+
+
+    <string name="week1">Week 1</string>
+    <string name="week2">Week 2</string>
+    <string name="week3">Week 3</string>
+    <string name="week4">Week 4</string>
+
+    <string name="quad_stretch_name">Quad Stretch</string>
+    <string name="right_side_plank_crunch_name">Right Side Plank Crunch</string>
+    <string name="shoulder_pushup_name">Shoulder Pushup</string>
+    <string name="straight_armp_name">Straight Armp</string>
+    <string name="wall_exercise_name">Wall Exercise</string>
+    <string name="pushup_name">Push Up</string>
+    <string name="bridge_name">Bridge</string>
+    <string name="calf_raise_name">Calf Raise</string>
+    <string name="cross_punch_roll_name">Cross Punch Roll</string>
+    <string name="crunch_name">Crunch</string>
+    <string name="hamstring_stretch_name">Hamstring Stretch</string>
+    <string name="itband_stretch_name">Itband Stretch</string>
+    <string name="jog_in_place_name">Jog In Place</string>
+    <string name="jump_squat_name">Jump Squat</string>
+    <string name="jumping_jack_name">Jumping Jack</string>
+    <string name="kick_back_name">KickBack</string>
+    <string name="left_leg_raise_name">Left Leg Raise</string>
+    <string name="left_leg_side_lying_name">Left Leg Side Lying</string>
+    <string name="leg_lowering_drill_name">Leg Lowering Drill</string>
+    <string name="lower_side_to_side_lunge_name">Lower Side To Side Lunge</string>
+    <string name="lunge_with_arm_reach_name">Lunge With Arm Reach</string>
+    <string name="lunges_name">Lunges</string>
+    <string name="mountain_climb_name">Mountain Climb</string>
+    <string name="plank_with_leg_lift_name">Plank With Leg Lift</string>
+    <string name="pushup_amp_rotation_name">Pushup Amp Rotation</string>
+    <string name="right_leg_raise_name">Right Leg Raise</string>
+    <string name="squats_name">Squats</string>
+    <string name="wide_stand_squats_name">Wide Stand Squats</string>
+    <string name="step_up_onto_chair_name">Stepp Up Onto Chair</string>
+    <string name="sumo_squats_name">Sumo Squats</string>
+    <string name="table_top_dip_name">Table Top Dip</string>
+    <string name="wall_mountain_climber_name">Wall Mountain Climber</string>
+    <string name="shoulder_circle_name">Shoulder Circle</string>
+    <string name="biceps_stretch_name">Biceps Stretch</string>
+    <string name="left_side_plank_crunch_name">Left Side Plank Crunch</string>
+
+
+
+</resources>

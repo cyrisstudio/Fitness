@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="160dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView_pre_holder"
+    android:elevation="10dp"
+    app:cardCornerRadius="20dp"
+    android:outlineAmbientShadowColor="@color/black"
+    android:layout_margin="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/image_pre_holder"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Exercise Name"
+            android:textStyle="bold"
+            android:textColor="@color/darkBlue"
+            android:id="@+id/exercise_name_pre_holder"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:text="Count"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/exercise_count_pre_holder"
+            />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

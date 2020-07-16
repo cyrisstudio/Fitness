@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_marginTop="10dp"
+       >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Special Plan"
+        android:fontFamily="@font/europa_regular"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/lightBlack"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/recyclerview_special_plan"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beginner Plan"
+        android:textStyle="bold"
+        android:fontFamily="@font/europa_regular"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/lightBlack"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/recyclerview_beginner_plan"
+        />
+
+     <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intermediate Plan"
+         android:textStyle="bold"
+         android:textSize="20sp"
+         android:fontFamily="@font/europa_regular"
+         android:layout_marginBottom="15dp"
+         android:layout_marginLeft="15dp"
+         android:textColor="@color/lightBlack"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/recyclerview_intermediate_plan"
+            />
+
+     <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advanced Plan"
+         android:fontFamily="@font/europa_regular"
+         android:textStyle="bold"
+         android:textSize="20sp"
+         android:layout_marginBottom="15dp"
+         android:layout_marginLeft="15dp"
+         android:textColor="@color/black"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/recyclerview_advance_plan"
+            />
+   </LinearLayout>
+  </FrameLayout>
+
+
+
+</ScrollView>

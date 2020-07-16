@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StartExercise">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/back_button"
+        android:layout_margin="20dp"
+        android:id="@+id/back_button_start_activity"
+        />
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/image_start_activity"
+        />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/more_info"
+            android:id="@+id/more_info_exercise"
+            android:layout_marginRight="50dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/volume_on"
+            android:src="@drawable/volume_on"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Exercise Name"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/europa_regular"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:id="@+id/text_name_start_exercise"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="Exercise Count"
+        android:gravity="center"
+        android:textColor="@color/darkBlue"
+        android:fontFamily="@font/europa_regular"
+        android:layout_marginTop="10dp"
+        android:id="@+id/text_exercise_count_start"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/previous_unselected"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:id="@+id/image_previous_exercise_start"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:textColor="@color/white"
+            android:fontFamily="@font/europa_regular"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_corner"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/button_start_exercise"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/next_unselected"
+            android:layout_weight="1"
+            android:id="@+id/image_next_exercise_start"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

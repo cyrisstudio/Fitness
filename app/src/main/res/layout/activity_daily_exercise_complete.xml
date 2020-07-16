@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGrey"
+    android:orientation="vertical"
+    tools:context=".DailyExerciseComplete">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@color/black"
+        android:elevation="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2"
+            android:elevation="10dp"
+            android:fontFamily="@font/europa_regular"
+            android:text="Congratulations!!"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/winner_trophy"
+            android:background="@drawable/confetti_1"
+            />
+
+
+        <TextView
+            android:id="@+id/exercise_name_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="110dp"
+            android:fontFamily="@font/europa_regular"
+            android:text="Exercise Name"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:text="Week"
+            android:visibility="gone"
+            android:id="@+id/week_complete"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:text="Exercise Day"
+            android:visibility="gone"
+            android:id="@+id/exercise_day_complete"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            />
+    </FrameLayout>
+
+        <TextView
+            android:id="@+id/today_date_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/date_ttf"
+            android:text="date"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="24dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Exercise Done:"
+            android:fontFamily="@font/europa_regular"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="WORKOUT Count"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:id="@+id/exercise_count_complete"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:layout_marginLeft="24dp"
+            android:fontFamily="@font/europa_regular"
+            android:text="Tiredness:-"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/radio_group_exercise_complete"
+            android:orientation="horizontal"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="5dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio_one"
+                android:layout_weight="1"
+                android:buttonTint="@color/white"
+                />
+            <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radio_two"
+                android:layout_weight="1"
+                android:buttonTint="@color/white"
+                            />
+            <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radio_three"
+                android:layout_weight="1"
+                android:buttonTint="@color/white"
+                            />
+            <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radio_four"
+                android:layout_weight="1"
+                android:buttonTint="@color/white"
+                            />
+            <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radio_five"
+                android:layout_weight="1"
+                android:buttonTint="@color/white"
+                            />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/done_complete"
+        android:background="@drawable/rounded_corner"
+        />
+    </LinearLayout>
+
+</ScrollView>
